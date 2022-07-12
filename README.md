@@ -24,10 +24,15 @@ not exist at database;
 
 ## Things used for app development
 
-* javax.servlet library;
-* Tomcat Server;
+* MySQL;
+* Servlet API;
+* JDK 11;
+* Tomcat 9.0.64;
+* Maven;
+* JDBC;
 
 ## How to start the project 
+* create schema and tables using your sql console and data from _src/main/resources/init_db.sql_;
 * install Tomcat of 9.x.xx version (**be careful! If Tomcat's version will be 10.x.xx you won't start the app**);
 * open ConnectionUtil class at util package. Input your data for connecting with database;.
 * configure your Tomcat [see here how](https://www.loom.com/share/1862b4eca21d469b938ca1928f704f36);
